@@ -1,0 +1,51 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+  font-family: Roboto;
+}
+.bg {
+  border: 1px solid gray;
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cardDark {
+  background-color: black; /*change */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+.cardLight {
+  background-color: white; /*change */
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  border: 1px solid black;
+}
+
+.headingWhite {
+  font-size: 36px;
+  color: white; /*change */
+}
+.headingBlack {
+  color: black;
+}
+.btnEl {
+  background-color: #ffffff;
+  border-radius: 8px;
+  border-color: transparent;
+  padding: 4px 8px;
+  cursor: pointer;
+  border: 1px solid black;
+}
